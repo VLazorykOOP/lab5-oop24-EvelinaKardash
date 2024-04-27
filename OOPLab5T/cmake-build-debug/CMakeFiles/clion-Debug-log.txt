@@ -1,0 +1,4 @@
+/Users/eveline/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/eveline/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -G Ninja -S /Users/eveline/CLionProjects/Lab/lab3oop-24-EvelinaKardash/OOPLab3Tpl/lab5-oop24-EvelinaKardash/OOPLab5T -B /Users/eveline/CLionProjects/Lab/lab3oop-24-EvelinaKardash/OOPLab3Tpl/lab5-oop24-EvelinaKardash/OOPLab5T/cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/eveline/CLionProjects/Lab/lab3oop-24-EvelinaKardash/OOPLab3Tpl/lab5-oop24-EvelinaKardash/OOPLab5T/cmake-build-debug
