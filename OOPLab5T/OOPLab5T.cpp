@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include "Task_lab_5.h"
 
 using namespace std;
 
@@ -36,7 +37,7 @@ public:// Конструктор класу Rectangle, який успадков
         cout << "Rectangle constructor called" << endl;
     }
 
-    ~Rectangle() { // Деструктор класу Rectangle
+    ~Rectangle() override { // Деструктор класу Rectangle
         cout << "Rectangle destructor called" << endl;
     }
 // Перевизначення віртуальної функції area для обчислення площі прямокутника
@@ -51,16 +52,17 @@ public:// Конструктор класу Rectangle, який успадков
 
 class Square : public Rectangle {
 public:  // Конструктор класу Square, який успадковує конструктор класу Rectangle
-    Square(double side) : Rectangle(side, side) {
+    explicit Square(double side) : Rectangle(side, side) {
         cout << "Square constructor called" << endl;
     }
 // Деструктор класу Square
-    ~Square() {
+    ~Square() override {
         cout << "Square destructor called" << endl;
     }
 };
 
 int main() {
+    mainTask1();
         // Тестування класу Rectangle
         cout << "Rectangle:" << endl;
         Rectangle rect(4, 5);
